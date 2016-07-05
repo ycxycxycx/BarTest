@@ -5,6 +5,8 @@ import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.ViewTreeObserver;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -28,7 +30,9 @@ public class MainActivity extends Activity implements ObservableScrollView.Scrol
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ll =(LinearLayout)findViewById(R.id.ln);
+        Window window = getWindow();//将状态栏透明
+        window.setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS, WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        ll = (LinearLayout) findViewById(R.id.ln);
         scrollView = (ObservableScrollView) findViewById(R.id.scrollview);
 //        listView = (ListView) findViewById(R.id.listview);
         imageView = (ImageView) findViewById(R.id.image_view14166);

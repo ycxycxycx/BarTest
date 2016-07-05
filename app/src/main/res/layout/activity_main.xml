@@ -1,14 +1,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-     >
+    android:background="#f0f0f0">
 
     <my.bar.ObservableScrollView
         android:id="@+id/scrollview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scrollbars="none" >
+        android:scrollbars="none">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -19,18 +19,17 @@
             <ImageView
                 android:id="@+id/image_view14166"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:layout_height="250dp"
                 android:scaleType="fitXY"
                 android:src="@mipmap/qq" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
                 android:background="#ffffff"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -41,16 +40,16 @@
 
                     <ImageView
                         android:id="@+id/image_view132"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@mipmap/ic_launcher" />
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@mipmap/z" />
 
                     <TextView
                         android:id="@+id/text_view47"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="优酷"
-                        android:textSize="8sp" />
+                        android:text="QQ"
+                        android:textSize="12sp" />
 
                 </LinearLayout>
 
@@ -63,16 +62,16 @@
 
                     <ImageView
                         android:id="@+id/image_view14747"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@mipmap/ic_launcher" />
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@mipmap/x" />
 
                     <TextView
                         android:id="@+id/text_view487"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="土豆"
-                        android:textSize="8sp" />
+                        android:text="QQ空间"
+                        android:textSize="12sp" />
 
                 </LinearLayout>
 
@@ -85,16 +84,16 @@
 
                     <ImageView
                         android:id="@+id/image_view132744"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@mipmap/ic_launcher" />
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@mipmap/c" />
 
                     <TextView
                         android:id="@+id/text_view4727"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="微信"
-                        android:textSize="8sp" />
+                        android:text="陌陌"
+                        android:textSize="12sp" />
 
                 </LinearLayout>
 
@@ -107,16 +106,16 @@
 
                     <ImageView
                         android:id="@+id/image_view1328822"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@mipmap/ic_launcher" />
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@mipmap/v" />
 
                     <TextView
                         android:id="@+id/text_view4887"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="网易云音乐"
-                        android:textSize="8sp" />
+                        android:text="朋友圈"
+                        android:textSize="12sp" />
 
                 </LinearLayout>
 
@@ -129,16 +128,16 @@
 
                     <ImageView
                         android:id="@+id/image_view1326598"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@mipmap/ic_launcher" />
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@mipmap/b" />
 
                     <TextView
                         android:id="@+id/text_view4997"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="腾讯"
-                        android:textSize="8sp" />
+                        android:text="微博"
+                        android:textSize="12sp" />
 
                 </LinearLayout>
 
@@ -150,8 +149,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#ffffff"
-                android:paddingBottom="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -162,16 +161,16 @@
 
                     <ImageView
                         android:id="@+id/image_view135682"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@mipmap/ic_launcher" />
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@mipmap/n" />
 
                     <TextView
                         android:id="@+id/text_view485587"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="优酷"
-                        android:textSize="8sp" />
+                        android:text="微信"
+                        android:textSize="12sp" />
 
                 </LinearLayout>
 
@@ -184,16 +183,16 @@
 
                     <ImageView
                         android:id="@+id/image_view14785847"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@mipmap/ic_launcher" />
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@mipmap/k" />
 
                     <TextView
                         android:id="@+id/text_view468687"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="土豆"
-                        android:textSize="8sp" />
+                        android:text="连我"
+                        android:textSize="12sp" />
 
                 </LinearLayout>
 
@@ -206,16 +205,16 @@
 
                     <ImageView
                         android:id="@+id/image_view13278744"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@mipmap/ic_launcher" />
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@mipmap/j" />
 
                     <TextView
                         android:id="@+id/text_view47288967"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="微信"
-                        android:textSize="8sp" />
+                        android:text="闪充"
+                        android:textSize="12sp" />
 
                 </LinearLayout>
 
@@ -228,16 +227,16 @@
 
                     <ImageView
                         android:id="@+id/image_view13278822"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@mipmap/ic_launcher" />
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@mipmap/h" />
 
                     <TextView
                         android:id="@+id/text_view487887"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="网易云音乐"
-                        android:textSize="8sp" />
+                        android:text="传送"
+                        android:textSize="12sp" />
 
                 </LinearLayout>
 
@@ -250,16 +249,16 @@
 
                     <ImageView
                         android:id="@+id/image_view13276598"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@mipmap/ic_launcher" />
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@mipmap/m" />
 
                     <TextView
                         android:id="@+id/text_view4978697"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="腾讯"
-                        android:textSize="8sp" />
+                        android:text="360"
+                        android:textSize="12sp" />
 
                 </LinearLayout>
 
@@ -269,11 +268,11 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="8dp"
                 android:background="#ffffff"
+                android:orientation="horizontal"
                 android:paddingLeft="15dp"
-                android:paddingRight="15dp"
-                android:orientation="horizontal">
+                android:paddingRight="15dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -287,35 +286,34 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="left"
                         android:text="百万红包，整点开抢"
-                        android:textColor="#ff0ec0"
+                        android:textColor="#ea0000"
                         android:textSize="24sp" />
 
                     <TextClock
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:format24Hour="HH:mm:ss"
-                        android:textStyle="normal"
                         android:fontFamily="sans-serif-light"
+                        android:format24Hour="HH:mm:ss"
                         android:textSize="32sp"
-                        />
+                        android:textStyle="normal" />
                 </LinearLayout>
 
                 <ImageView
                     android:id="@+id/image_view64"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="40dp"
+                    android:layout_height="70dp"
                     android:layout_gravity="right"
-                    android:src="@mipmap/ic_launcher" />
+                    android:src="@mipmap/hb" />
             </LinearLayout>
 
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:paddingTop="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="8dp"
                 android:background="#ffffff"
                 android:paddingLeft="15dp"
-                android:paddingRight="15dp">
+                android:paddingRight="15dp"
+                android:paddingTop="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -334,9 +332,9 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingLeft="10dp"
                         android:layout_weight="1"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
 
                         <TextView
                             android:id="@+id/text_view1323"
@@ -369,19 +367,19 @@
                         android:layout_width="55dp"
                         android:layout_height="30dp"
                         android:background="@drawable/shape"
-                        android:textSize="14sp"
                         android:gravity="center"
-                        android:textColor="#ffffff"
                         android:text="下载"
-                        />
+                        android:textColor="#ffffff"
+                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
-                    android:background="#cccccc"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:background="#cccccc" />
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -398,8 +396,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingLeft="10dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
 
                         <TextView
                             android:id="@+id/text_view132"
@@ -432,20 +430,19 @@
                         android:layout_width="55dp"
                         android:layout_height="30dp"
                         android:background="@drawable/shape"
-                        android:textSize="14sp"
                         android:gravity="center"
-                        android:textColor="#ffffff"
                         android:text="下载"
-                        />
+                        android:textColor="#ffffff"
+                        android:textSize="14sp" />
 
                 </LinearLayout>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
-                    android:background="#cccccc"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:background="#cccccc" />
 
                 <LinearLayout>
 
@@ -460,8 +457,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingLeft="10dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
 
                         <TextView
                             android:id="@+id/text_view13232"
@@ -494,19 +491,18 @@
                         android:layout_width="55dp"
                         android:layout_height="30dp"
                         android:background="@drawable/shape"
-                        android:textSize="14sp"
                         android:gravity="center"
-                        android:textColor="#ffffff"
                         android:text="下载"
-                        />
+                        android:textColor="#ffffff"
+                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
-                    android:background="#cccccc"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:background="#cccccc" />
 
                 <LinearLayout>
 
@@ -521,8 +517,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingLeft="10dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
 
                         <TextView
                             android:id="@+id/text_view6587"
@@ -555,20 +551,19 @@
                         android:layout_width="55dp"
                         android:layout_height="30dp"
                         android:background="@drawable/shape"
-                        android:textSize="14sp"
                         android:gravity="center"
-                        android:textColor="#ffffff"
                         android:text="下载"
-                        />
+                        android:textColor="#ffffff"
+                        android:textSize="14sp" />
 
                 </LinearLayout>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
-                    android:background="#cccccc"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:background="#cccccc" />
 
                 <LinearLayout>
 
@@ -583,8 +578,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingLeft="10dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
 
                         <TextView
                             android:id="@+id/text_view33333"
@@ -617,19 +612,18 @@
                         android:layout_width="55dp"
                         android:layout_height="30dp"
                         android:background="@drawable/shape"
-                        android:textSize="14sp"
                         android:gravity="center"
-                        android:textColor="#ffffff"
                         android:text="下载"
-                        />
+                        android:textColor="#ffffff"
+                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
-                    android:background="#cccccc"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:background="#cccccc" />
 
                 <LinearLayout>
 
@@ -644,8 +638,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingLeft="10dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
 
                         <TextView
                             android:id="@+id/text_view3336"
@@ -678,19 +672,18 @@
                         android:layout_width="55dp"
                         android:layout_height="30dp"
                         android:background="@drawable/shape"
-                        android:textSize="14sp"
                         android:gravity="center"
-                        android:textColor="#ffffff"
                         android:text="下载"
-                        />
+                        android:textColor="#ffffff"
+                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
-                    android:background="#cccccc"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:background="#cccccc" />
 
                 <LinearLayout>
 
@@ -705,8 +698,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingLeft="10dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
 
                         <TextView
                             android:id="@+id/text_view33339"
@@ -739,19 +732,18 @@
                         android:layout_width="55dp"
                         android:layout_height="30dp"
                         android:background="@drawable/shape"
-                        android:textSize="14sp"
                         android:gravity="center"
-                        android:textColor="#ffffff"
                         android:text="下载"
-                        />
+                        android:textColor="#ffffff"
+                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
-                    android:background="#cccccc"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:background="#cccccc" />
 
                 <LinearLayout>
 
@@ -766,8 +758,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingLeft="10dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
 
                         <TextView
                             android:id="@+id/text_view333333333"
@@ -800,19 +792,18 @@
                         android:layout_width="55dp"
                         android:layout_height="30dp"
                         android:background="@drawable/shape"
-                        android:textSize="14sp"
                         android:gravity="center"
-                        android:textColor="#ffffff"
                         android:text="下载"
-                        />
+                        android:textColor="#ffffff"
+                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
-                    android:background="#cccccc"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:background="#cccccc" />
 
                 <LinearLayout>
 
@@ -827,8 +818,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingLeft="10dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
 
                         <TextView
                             android:id="@+id/text_view3333113"
@@ -861,19 +852,18 @@
                         android:layout_width="55dp"
                         android:layout_height="30dp"
                         android:background="@drawable/shape"
-                        android:textSize="14sp"
                         android:gravity="center"
-                        android:textColor="#ffffff"
                         android:text="下载"
-                        />
+                        android:textColor="#ffffff"
+                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
-                    android:background="#cccccc"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:background="#cccccc" />
 
                 <LinearLayout>
 
@@ -888,8 +878,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingLeft="10dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
 
                         <TextView
                             android:id="@+id/text_view3388888"
@@ -922,29 +912,20 @@
                         android:layout_width="55dp"
                         android:layout_height="30dp"
                         android:background="@drawable/shape"
-                        android:textSize="14sp"
                         android:gravity="center"
-                        android:textColor="#ffffff"
                         android:text="下载"
-                        />
+                        android:textColor="#ffffff"
+                        android:textSize="14sp" />
                 </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="0.5dp"
-                    android:background="#cccccc"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"/>
-
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="8dp"
                     android:background="#ffffff"
-                    android:paddingTop="10dp"
+                    android:orientation="horizontal"
                     android:paddingBottom="10dp"
-                    android:orientation="horizontal">
+                    android:paddingTop="10dp">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -1063,8 +1044,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingBottom="20dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:paddingBottom="20dp">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -1192,8 +1173,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingLeft="10dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
 
                         <TextView
                             android:id="@+id/text_view3334433"
@@ -1226,19 +1207,18 @@
                         android:layout_width="55dp"
                         android:layout_height="30dp"
                         android:background="@drawable/shape"
-                        android:textSize="14sp"
                         android:gravity="center"
-                        android:textColor="#ffffff"
                         android:text="下载"
-                        />
+                        android:textColor="#ffffff"
+                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
-                    android:background="#cccccc"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:background="#cccccc" />
 
                 <LinearLayout>
 
@@ -1253,8 +1233,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingLeft="10dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
 
                         <TextView
                             android:id="@+id/text_view3333443"
@@ -1287,19 +1267,18 @@
                         android:layout_width="55dp"
                         android:layout_height="30dp"
                         android:background="@drawable/shape"
-                        android:textSize="14sp"
                         android:gravity="center"
-                        android:textColor="#ffffff"
                         android:text="下载"
-                        />
+                        android:textColor="#ffffff"
+                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
-                    android:background="#cccccc"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:background="#cccccc" />
 
                 <LinearLayout>
 
@@ -1314,8 +1293,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingLeft="10dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
 
                         <TextView
                             android:id="@+id/text_view3377"
@@ -1348,11 +1327,10 @@
                         android:layout_width="55dp"
                         android:layout_height="30dp"
                         android:background="@drawable/shape"
-                        android:textSize="14sp"
                         android:gravity="center"
-                        android:textColor="#ffffff"
                         android:text="下载"
-                        />
+                        android:textColor="#ffffff"
+                        android:textSize="14sp" />
                 </LinearLayout>
             </TableLayout>
         </LinearLayout>
@@ -1362,39 +1340,40 @@
     <LinearLayout
         android:id="@+id/ln"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="15dp"
-        android:paddingRight="15dp"
-        android:paddingTop="20dp"
+        android:layout_height="58dp"
         android:background="#00000000"
-        android:orientation="horizontal">
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
 
         <ImageView
             android:id="@+id/image_view1413"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher" />
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@mipmap/wq" />
 
         <EditText
             android:id="@+id/input_message"
             android:layout_width="0dp"
             android:layout_height="40dp"
-            android:background="#ffffff"
-            android:paddingLeft="6dp"
-            android:paddingRight="6dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:hint="海岛奇兵" />
+            android:background="@drawable/hahahaha"
+            android:drawableLeft="@mipmap/w"
+            android:drawableRight="@mipmap/r"
+            android:hint="海岛奇兵"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp" />
 
-        <TextView
+        <ImageView
             android:id="@+id/send786781"
-            android:layout_width="55dp"
-            android:layout_height="30dp"
-            android:background="#1EC2b6"
-            android:textSize="14sp"
-            android:gravity="center"
-            android:textColor="#ffffff"
-            android:text="搜"
-            />
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/zzz"
+            android:padding="5dp"
+            android:src="@mipmap/e" />
     </LinearLayout>
 
 </RelativeLayout>
